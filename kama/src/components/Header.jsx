@@ -1,8 +1,8 @@
-
+import classes from "./Header.module.css"
 
 const Header=()=>{
-    return(<header className="header">
-    <img src="https://i.pinimg.com/736x/c6/80/c9/c680c9681ca3cdc09a19877a04640cca.jpg" />
+    return(<header className={classes.header}>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Pepsi_2023.svg/260px-Pepsi_2023.svg.png" />
 </header>)
 }
 

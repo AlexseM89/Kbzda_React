@@ -1,20 +1,20 @@
-
+import clasess from "./Nav.module.css"
 
 const NavBar=()=>{
-    return(<nav className="nav">
-        <div>
-            <a>Profile</a>
+    return(<nav className={clasess.nav}>
+        <div className={`${clasess.item} ${clasess.active}`}>
+            <a >Profile</a>
         </div>
-        <div>
+        <div className={clasess.item}>
             <a>Messages</a>
         </div>
-        <div>
+        <div className={clasess.item}>
             <a>News</a>
         </div>
-        <div>
+        <div className={clasess.item}>
             <a>Music</a>
         </div>
-        <div>
+        <div className={clasess.item}>
             <a>Settings</a>
         </div>
     </nav>)
