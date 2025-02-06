@@ -1,34 +1,15 @@
-import logo from "./logo.svg";
+import React from "react";
+import Header from "./components/Header/Header";
+import NavBar from "./components/NavBar/Nav";
+import Profile from "./components/Profile/Profile";
 import "./App.css";
 
 const App = () => {
     return (
-        <div>
-            <div>
-                <Header />
-                <Technologies />
-            </div>
-        </div>
-    );
-};
-const Header = () => {
-    return (
-        <div>
-            <a href="#s">Home</a>
-            <a href="#s">News Feed</a>
-            <a href="#s">Messages</a>
-        </div>
-    );
-};
-const Technologies = () => {
-    return (
-        <div>
-            <ul>
-                <li>cssT</li>
-                <li>htmlT</li>
-                <li>jsT</li>
-                <li>ReactT</li>
-            </ul>
+        <div className="app-wrapper">
+            <Header />
+            <NavBar />
+            <Profile />
         </div>
     );
 };
