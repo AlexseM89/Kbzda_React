@@ -1,11 +1,12 @@
 import classes from "./Post.module.css"
 
-const Post=()=>{
+const Post=(props)=>{
+    
     return(
                         <div className={classes.item}>
                         <img src="https://png.pngtree.com/thumb_back/fh260/background/20230527/pngtree-blue-face-of-cartoon-demon-with-black-background-image_2694020.jpg"></img>
-                        post 0
-                        <div><span>like</span></div>
+                        {props.message}
+                        <div><span>like{props.like}</span></div>
                         
                         </div>   
     )

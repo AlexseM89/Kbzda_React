@@ -10,7 +10,7 @@ const Profile=()=>{
                     ava+description
                     <img src=""></img>
                 </div>
-                <MyPosts/>
+                <MyPosts hey="yo"/>
             </div>
 }
 
